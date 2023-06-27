@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+<head>
+	<audio autoplay loop>
+		<source src="music/experience.mp3" type="audio/mpeg">
+	  </audio>
+      <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	  <title>ثبت نام</title>
+      <link rel="stylesheet" href="css/reservation.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+      <link rel="stylesheet" href="./styles/styles.css">
+      <link rel="stylesheet" href="./styles/slider.css">
+      <link rel="stylesheet" href="./styles/footer.css">
+</head>
+
+<body>
+    <style>
+        .content-area{
+            width:100%;
+            position:relative;
+            top: 30px;
+            background:#ddd;
+            height:700px;
+        }
+        .content-area h2{
+            font-family: 'IranNastaliq';
+            padding-top:30px;
+            font-size:60px;
+            margin:0;
+        }
+        .content-area h4{
+             direction:rtl;
+             font-family:'Byekan';
+             text-align:right;
+             font-size:22px;
+        }
+        .content-area p{
+            padding:2% 0;
+            direction:rtl;
+            font-family:'Byekan';
+            line-height:30px;
+        }
+        h2.center{
+            text-align:center;
+        }
+        .wrapper{
+            background-image: url(images/000.jpeg);
+            height: 890px;
+        }
+            </style>
+<div class="container">
+<header>
+    <!-- Navbar -->
+    <nav class="Navbar">
+        <div class="Navbar__col-left">
+            <div>
+                <img src="./images/logo1.png" alt="Logo">
+            </div>
+
+            <p>Tanin Music Institute</p>
+        </div>
+        <div class="Navbar__col-right">
+            <ul>
+                <li><a href="index.html">صفحه اصلی</a></li>
+                    <li><a href="service-list-sonati.html">ساز سنتی</a></li>
+                    <li><a href="service-list-pop.html">ساز پاپ</a></li>
+                    <li><a href="service-list-clasic.html">ساز کلاسیک</a></li>
+                    <li><a href="reservation.html">رزرو کلاس</a></li>
+                    <li><a href="sign in.html">ثبت نام</a></li>
+                    <li><a href="about_us.html">درباره‌ ما</a></li>
+            </ul>
+        </div>
+
+        <button class="hamburger">
+            <div class="bar"></div>
+        </button>
+    </nav>
+
+    <!-- Mobile Navbar -->
+    <nav class="mobile-navbar">
+        <ul class="mobile-menu">
+            <li><a href="index.html" class="menu-btn">صفحه اصلی</a></li>
+            <li><a href="service-list-sonati.html" class="menu-btn">ساز سنتی</a></li>
+            <li><a href="service-list-pop.html" class="menu-btn">ساز پاپ</a></li>
+            <li><a href="service-list-clasic.html" class="menu-btn">ساز کلاسیک</a></li>
+            <li><a href="reservation.html" class="menu-btn">رزرو کلاس</a></li>
+            <li><a href="sign in.html" class="menu-btn">ثبت نام</a></li>
+            <li><a href="about_us.html" class="menu-btn">درباره‌ ما</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="wrapper">
+        <center>
+<style>
+          .main {
+			position: relative;
+			background: #aee4fb;
+			color: #0e5698;
+			display: inline-block;
+			padding: 20px;
+			margin: 0 auto;
+            margin-top: 30px;
+			border-radius: 7px;
+			box-shadow: 0 50px 50px rgba(0, 0, 0, 0.2);
+			min-height: 400px;
+			max-width: 600px;
+			width: 90%;
+		}
+
+		h1[type="sign"] {
+			font-size: 2rem;
+			text-align: center;
+			margin-top: 0;
+			margin-bottom: 20px;
+			font-weight: bold;
+			color: #000000;
+			font-family: sans-serif;
+		}
+
+		label[for="text"] {
+			display: block;
+			font-size: 1rem;
+			margin-top: 10px;
+			color: #0e5698;
+			font-weight: bold;
+			line-height: 25px;
+			font-family: sans-serif;
+            margin: 10px;
+		}
+
+		input[type=text],
+		button[type=submit],
+		select,
+		textarea[type=text] {
+			display: block;
+			border: 1px solid #ccc;
+			border-radius: 50px;
+			margin-top: 15px;
+			line-height: 50px;
+			height: 40px;
+			padding: 10px;
+			width: 100%;
+			box-sizing: border-box;
+			font-family: sans-serif;
+			font-size: 1rem;
+			background-color: #f2f2f2;
+		}
+
+		button[type=sign] {
+			background: #93024Afb;
+			color: #fff;
+			line-height: 0px;
+			height: 40px;
+            width: 100%;
+			font-size: 1.2rem;
+			border: 0;
+			border-radius: 50px;
+			margin-top: 20px;
+			font-family: sans-serif;
+			cursor: pointer;
+		}
+
+		button[type=submit]:hover {
+			opacity: 0.7;
+		}
+
+		a[type="sign"] {
+			display: block;
+			text-align: center;
+			margin-top: 20px;
+			font-size: 1rem;
+			color: #005f88;
+			line-height: 50px;
+			font-family: sans-serif;
+		}
+
+		@media screen and (max-width: 600px) {
+			.main {
+				padding: 10px;
+				min-height: 700px;
+			}
+
+			h1 {
+				font-size: 1.5rem;
+			}
+
+			label {
+				line-height: 30px;
+			}
+
+			input[type=text],
+			button[type=submit],
+			select,
+			textarea[type=text] {
+				font-size: 0.9rem;
+				padding: 5px;
+				height: 30px;
+			}
+
+			button[type=submit] {
+				height: 30px;
+				font-size: 1rem;
+			}
+
+			a {
+				line-height: 30px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+        <h1 type=sign>Sign in</h1>
+        <form action="reservation.html" method="post">
+            <label for="text" style="font-size: 20px;">First name</label>
+            <input type="text" required style="text-align: center;" name="First name" placeholder="First name">
+            <label for="text"style="font-size: 20px;">Last name</label>
+            <input type="text" required style="text-align: center;"name="Last name" placeholder="Last name">
+            <label for="text"style="font-size: 20px;">Phone number</label>
+            <input type="text" required style="text-align: center;"name="Phone number" placeholder="Phone number">
+            <label for="text"style="font-size: 20px;">Favorite instruments</label>
+            <input type="text" required style="text-align: center;" name="Favorite instruments" placeholder="Favorite instruments">
+            <label for="text"style="font-size: 20px;">Username</label>
+            <input type="text" required style="text-align: center;"name="Username" placeholder="Username">
+            <label for="text"style="font-size: 20px;">password</label>
+            <input type="text" required style="text-align: center;"name="password" placeholder="password">
+            <label for="text"style="font-size: 20px;">Repeat password</label>
+            <input type="text" required style="text-align: center;" name="Repeat password" placeholder="Repeat password">
+            <button  type="sign" name="Sign in">Sign in </button>
+        <a type=sign href="reservation.html">I already registered</a>
+        </form>
+	</div>
+    </body>
+        </center>
+
+
+<footer>
+    <div class="footer_col-1">
+        <h2>
+            <span>Tanin</span>Music class
+        </h2>
+
+        <p>
+            Tanin music class offers you the training of various musical
+        </p>
+
+        <p>
+            instruments in three styles: traditional, classical and pop
+        </p>
+
+        <div class="footer-contact">
+            <span>
+                <img src="./images/phone.svg" alt="phone">
+                <a href="tel:+123456789">123-456-789</a>
+            </span>
+
+            <span>
+                <img src="./images/mail.svg" alt="mail">
+                <a href="mailto:info@saramehrabipour.com">info@saramehrabipour.com</a>
+            </span>
+        </div>
+
+        <div class="footer-media">
+            <img src="./images/facebook.svg" alt="facebook">
+            <img src="./images/instagram.svg" alt="instagram">
+            <img src="./images/twitter.svg" alt="twitter">
+            <img src="./images/youtube.svg" alt="youtube">
+        </div>
+    </div>
+
+    <div class="footer_col-2">
+        <h2>Quick Links</h2>
+
+        <ul>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Mentores</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+    </div>
+
+    <div class="footer_col-3">
+        <h2>Contact us</h2>
+        
+        <form>
+            <input type="email" name="mail" placeholder="Email">
+            <textarea name="message" id="" cols="30" rows="7" placeholder="Message"></textarea>
+            <button>Send</button>
+        </form>
+    </div>
+</footer>
+
+</div>
+
+</body>
+<script src="./JavaScript/app.js"></script>
+	</html>
